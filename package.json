@@ -1,0 +1,40 @@
+{
+  "name": "ng-pdfjs-viewer",
+  "version": "0.1.0",
+  "description": "Angular wrapper for Mozilla PDF.js viewer",
+  "main": "dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "clean" : "rimraf dist aot",
+    "tsc": "tsc -p ./tsconfig.json",
+    "ngc": "ngc",
+    "rebuild": "run-s clean build",
+    "build": "run-s tsc ngc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucsanCapital/ng-pdfjs-viewer.git"
+  },
+  "keywords": [
+    "pdf"
+  ],
+  "author": "Cyprien Autexier",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LucsanCapital/ng-pdfjs-viewer/issues"
+  },
+  "homepage": "https://github.com/LucsanCapital/ng-pdfjs-viewer#readme",
+  "devDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "rxjs": "^5.0.0",
+    "tslint": "^5.5.0",
+    "typescript": "2.2.2",
+    "npm-run-all": "4.0.2",
+    "rimraf": "2.6.1"
+  }
+}

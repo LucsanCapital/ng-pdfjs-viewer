@@ -1,0 +1,4 @@
+node_modules
+dist
+test-app/node_modules
+aot
