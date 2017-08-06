@@ -1,0 +1,28 @@
+{
+  "name": "ng-pdfjs-viewer",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucsanCapital/ng-pdfjs-viewer"
+  },
+  "author": {
+    "name": "Lucsan Capital Pty Ltd",
+    "email": "fernando.baba@lucsan.net.au"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucsanCapital/ng-pdfjs-viewer/issues"
+  },
+  "main": "ng-pdfjs-viewer.umd.js",
+  "module": "ng-pdfjs-viewer.js",
+  "jsnext:main": "ng-pdfjs-viewer.js",
+  "typings": "ng-pdfjs-viewer.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
